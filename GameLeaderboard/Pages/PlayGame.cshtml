@@ -2,8 +2,20 @@
 @model GameLeaderboard.Pages.PlayGameModel
 @{
     ViewData["Title"] = "Play Game";
+
+    <h1>Play Game Now!</h1>
+
+    <form method="post">
+            Enter player name: <input type="text" name="name" />
+            <button type="submit">Play Game</button>       
+    </form>
+
+    if (ViewData["Score"] != null)
+    {
+        <h1>Your Score:</h1>
+        <h1>@ViewData["Score"]</h1>
+    }
 }
 
-<div>
-    
-</div>
+
+
