@@ -1,5 +1,5 @@
 GameLeaderboard.sln
-./GameLeaderboard/bin
-./GameLeaderboard/obj
-./GameLeaderboard/GameLeaderboard.csproj.user
-./GameLeaderboard/appsettings.Development.json
+GameLeaderboard/bin
+GameLeaderboard/obj
+GameLeaderboard/GameLeaderboard.csproj.user
+GameLeaderboard/appsettings.Development.json
