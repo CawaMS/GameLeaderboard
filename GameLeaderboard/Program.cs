@@ -1,4 +1,8 @@
+using ContosoTeamStats;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton(async x => await RedisConnection.InitializeAsync(builder.Configuration["CacheConnection"].ToString()));
 
 // Add services to the container.
 builder.Services.AddRazorPages();

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ngkn9BsJ7Qj+nJx4ShSRsaNX/XY+SDg8a8nbXM7QQzBnkeLP6wN177TBMwWMzLYqtuTTHlDXUeh+cL8yitdiEg==",
+  "dgSpecHash": "cW2v+zHdPKAh6jCGZ3+E9gVErs8yWTayBPx0+gxDF8amMhqFElXQpMVhrnSySVY5xLPkWd+g2CP01X2GBvGvVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cawa\\source\\repos\\GameLeaderboard\\GameLeaderboard\\GameLeaderboard.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cawa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\cawa\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\cawa\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\cawa\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
