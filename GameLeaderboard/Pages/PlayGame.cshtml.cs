@@ -1,8 +1,4 @@
-using ContosoTeamStats;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 
 namespace GameLeaderboard.Pages
 {
@@ -27,7 +23,9 @@ namespace GameLeaderboard.Pages
             {
                 Random rand = new Random();
                 string playerName = InputName.ToString();
-                Player player = new Player(playerName);
+                Player player = new Player { 
+                    name = playerName
+                };
                 player.score = rand.Next(0, 1000);
                 ViewData["Name"] = player.name;
                 ViewData["Score"] = player.score;

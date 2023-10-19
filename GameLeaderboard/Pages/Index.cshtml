@@ -4,4 +4,36 @@
     ViewData["Title"] = "Game Leaderboard";
 }
 
+<head>
+    <meta http-equiv="refresh" content="1">
+</head>
+
+<div>
+    <h1>
+        Scores from each player:
+    </h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Player's name</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.players != null)
+        {
+            @foreach (var player in Model.players)
+            {
+                <tr>
+                    <td>@player.name</td>
+                    <td>@player.score</td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
 

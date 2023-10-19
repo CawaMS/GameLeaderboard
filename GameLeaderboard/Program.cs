@@ -1,4 +1,5 @@
-using ContosoTeamStats;
+
+using GameLeaderboard;
 
 var builder = WebApplication.CreateBuilder(args);
 
