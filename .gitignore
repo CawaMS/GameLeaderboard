@@ -3,3 +3,4 @@ GameLeaderboard/bin
 GameLeaderboard/obj
 GameLeaderboard/GameLeaderboard.csproj.user
 GameLeaderboard/appsettings.Development.json
+.azure
