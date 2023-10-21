@@ -86,7 +86,7 @@ resource app 'Microsoft.App/containerApps@2023-04-01-preview' = {
             }
             {
               name: 'CacheConnection'
-              value: 'leaderboardcache.redis.cache.windows.net:6380,password=Lcqr7VqYmQjfHZsBFcz0QYVflvGAzcciSAzCaMqGQYE=,ssl=True,abortConnect=False'
+              value: 'your_redis_cache_connectionString'
             }
           ]
           resources: {
